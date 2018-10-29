@@ -1,0 +1,134 @@
+body{
+	margin: 0px 0px 0px 0px;
+}
+
+body{
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+/*BOTONES*/
+a:active, a:hover, a:visited, a:link{
+	text-decoration: none;
+	list-style-type: none;
+	color: none;
+	font-style: none;
+}
+
+
+a:active:hover, a:hover:hover, a:visited:hover, a:link:hover{
+	text-decoration: none;
+	list-style-type: none;
+	color: none;
+	font-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*INICIO*/
+
+.contenedor-inicio{
+	width: 100%;
+	min-height: 600px;
+	background-color: #fff;
+	padding-top: 30px;
+}
+
+.barra{
+	width: 100%;
+	height: 80px;
+	background-color: #86e1ea;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.logo2{
+	width: 50%;
+	margin-left: 10px;
+}
+
+.nav{
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px; 
+	width: 10%;
+}
+
+p{
+	
+	font-family: arial;
+	font-size: 0.8em;
+	margin-left: 20px;
+	margin-bottom: -25px;
+	margin-top: 30px;
+	color: #808080;
+}
+
+h2{
+	font-family: arial;
+	font-size: 2em;
+	margin-left: 20px;
+	color: #0e467a;
+	font-weight: bold;	
+}
+
+.slider{
+	width: 100%;
+	margin-top: -40px;
+	margin-bottom: 20px;
+}
+
+.slider img{
+	width: 72%;
+	display: block;
+	margin: auto;
+}
+
+.conte-semanas{
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.conte-semanas img{
+	width: 20%;
+	margin-left: 10px;
+}
+
+body{
+	overflow-y: scroll;
+}
+
+
+
+
+/*RESPONSIVE*/
+
+
+
+/*breakpoints para el 
+
+RWD 320 480 (smarthphone) 
+
+600 768 (tablets) 
+
+1024 1200 (pc)*/
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,515 @@
+body{
+	margin: 0px 0px 0px 0px;
+}
+
+body{
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'aldosemibold';
+    src: url('aldo-webfont.woff2') format('woff2'),
+         url('aldo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*BOTONES*/
+a:active, a:hover, a:visited, a:link{
+	text-decoration: none;
+	list-style-type: none;
+	color: none;
+	font-style: none;
+}
+
+
+a:active:hover, a:hover:hover, a:visited:hover, a:link:hover{
+	text-decoration: none;
+	list-style-type: none;
+	color: none;
+	font-style: none;
+}
+
+/*BOTONERA*/
+
+header{
+	width: 100%;
+	padding-top: 50px;
+}
+
+header .logo2{
+	display: block;
+	margin: auto;
+	width: 45%;
+}
+
+.contenedor-menu{
+	background-color:#86e1ea;
+	width: 100%;
+	height: 750px;
+}
+
+.menu{
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.menu h2{
+	font-family: arial;
+	font-size: 1em;
+	text-align: center;
+	color: #0e467a;
+	margin: auto;
+	display: block;
+}
+
+.menu h2:hover{
+	color: #fff;
+}
+
+hr{
+	width: 70%;
+	margin: auto;
+	display: block;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	border-color: #0e467a;
+}
+
+.menu img{
+	margin: auto;
+	display: block;
+	text-align: center;
+	width: 10%;
+	margin-top: 30px;
+}
+
+
+
+
+/*INDEX*/
+
+
+.body{
+	background-image: url("../img/fondo.jpg");
+	background-size: 180% 120%;
+}
+
+.ocultar{
+	display: none;
+}
+
+.contenedor_principal{
+	width: 100%;
+	min-height: 500px;
+
+	padding-top: 120px;
+}
+
+.logo{
+	display: block;
+	margin: auto;
+	width: 80%;
+	margin-bottom: 40px;
+}
+
+input{
+	display: block;
+	margin: auto;
+	width: 70%;
+	height: 30px;
+	border: solid;
+	border-width: 0.4px;
+	border-color: #565656;
+	margin-bottom: 20px;
+	padding: 5px 15px 5px 15px;
+	font-family: arial;
+	font-size: 1em;
+}
+
+.contenedor-boton{
+	display: block;
+	margin: auto;
+	width: 90%;
+}
+
+button:hover{
+	background-color: #000;
+
+}
+
+.boton2{
+	background-color: #414143;
+}
+
+h3{
+	display: block;
+	margin: auto;
+	font-family: arial;
+	font-size: 1em;
+	color: red;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+
+
+/*INICIO*/
+
+
+.contenedor-inicio{
+	width: 100%;
+	min-height: 600px;
+	background-color: #fff;
+}
+
+.barra{
+	width: 100%;
+	height: 80px;
+	background-color: #86e1ea;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.logo2{
+	width: 50%;
+	margin-left: 10px;
+}
+
+.nav{
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px; 
+	width: 10%;
+}
+
+h2{
+	font-family: arial;
+	font-size: 2em;
+	color: #0e467a;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.slider{
+	width: 100%;
+	margin-top: -30px;
+}
+
+.slider img{
+	width: 72%;
+	display: block;
+	margin: auto;
+}
+
+.conte-semanas{
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.conte-semanas img{
+	width: 15%;
+	margin-left: 10px;
+}
+
+
+/*SEMANA 1234*/
+
+.semana1{
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top: -20px;
+	padding-left: 20px;
+}
+
+.semana1 img{
+	width: 25%;
+	margin-right: 22px;
+	margin-bottom: 10px;
+}
+
+
+/*MI CUENTA*/
+
+.foto{
+	width: 50%;
+	margin-left: 20px;
+	margin-top: -30px;
+	display: block;
+}
+
+.c1{
+	width: 45%;
+	height: 100px;
+	margin-left: 0px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+	.c1 h4{
+		font-family: arial;
+		font-size: 0.8em;
+		margin-left: 20px;
+		color: #0e467a;
+		margin-bottom: -25px;
+	}
+
+	.c1 p{
+		font-family: arial;
+		font-size: 0.8em;
+		color: #808080;
+		margin-bottom: -5px;
+	}
+
+
+.c2{
+	display: inline-block;
+	width: 45%;
+	height: 100px;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+	.c2 h4{
+		font-family: arial;
+		font-size: 0.8em;
+		margin-left: 20px;
+		color: #0e467a;
+		margin-bottom: -25px;
+	}
+
+	.c2 p{
+		font-family: arial;
+		font-size: 0.8em;
+		color: #808080;
+		margin-bottom: -5px;
+	}
+
+
+.botones{
+	display: block;
+}
+
+.botones button{
+	margin-top: 70px;
+}
+
+
+
+
+/*DESCUENTOS*/
+
+.descuentos{
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top: -20px;
+	padding-left: 0px;
+	margin-bottom: 50px;
+}
+
+.descuentos img{
+	width: 100%;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+body{
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+/*TICKETS GANADOS*/
+
+
+.tickets{
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top: -20px;
+	padding-left: 0px;
+	margin-bottom: 50px;
+}
+
+.tickets img{
+	width: 90%;
+}
+
+.tickets p{
+	margin-left: 0px;
+	text-align: center;
+}
+
+
+/*SUGERENCIAS*/
+
+.sugerencias input{
+	width: 80%;
+}
+
+
+
+/*LUNES*/
+
+.dia{
+	margin-top: -30px;
+	margin-bottom: 50px;
+}
+
+/*CUPON DETALLE*/
+
+.cupon{
+	margin-bottom: 50px;
+}
+
+.cupon h2{
+	font-size: 2em;
+	margin-bottom: 0px;
+	width: 85%;
+}
+
+.cupon img{
+	width: 100%;
+}
+
+.slider2{
+	width: 100%;
+	margin-top: -50px;
+}
+
+.button{
+	display: inline-block;
+	width: 90%;
+	height: 40px;
+	background-color: #e4492a;
+	color: #ffff;
+	border-style: none;
+	font-size: 1em;
+	font-family: arial;
+
+}
+
+.button:hover{
+	background-color: #000;
+
+}
+
+
+/*COMPRAR TICKETS*/
+
+.comprar-tickets{
+	margin-bottom: 50px;
+}
+
+.comprar-tickets img{
+	width: 60%;
+	display: block;
+	margin: auto;
+
+}
+
+.comprar-tickets h3{
+	font-family: arial;
+	font-size: 1.5em;
+	color: red;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.comprar-tickets p{
+	margin-top: 0px;
+	width: 85%;
+	margin-top: 20px;
+	text-align: justify;
+	line-height: 1.2em;
+}
+
+.comprar-tickets button{
+	margin-top: 80px;
+}
+
+
+
+
+/*CULQUI*/
+
+.culqui{
+	padding-top: 0px;
+}
+
+.culqui img{
+	width: 100%;
+	margin-top: -40px;
+}
+
+.boton_gris{
+	display: inline-block;
+	width: 40%;
+	height: 28px;
+	margin-left: 20px;
+	background-color: #414143;
+	color: #ffff;
+	border-style: none;
+	font-size: 1em;
+	font-family: arial;
+	padding-top:12px;
+	text-align:center;
+}
+.dia_semana{
+    width: 25%;
+	padding: 50px 0;
+    margin-right: 22px;
+    margin-bottom: 10px;
+	background-image: url("../img/calendario.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+	text-align:center;
+	font-size:24px;
+}
+
+.dia{
+	margin-top: -30px;
+	margin-bottom: 50px;
+}
+
+.dia_img{
+	width: 95%;
+	margin-left: 5px;
+
+}
+.mis_puntos{
+  width:60vh;
+  max-width:300px;
+  height:60vh;
+  max-height:300px;
+  position:relative;
+  margin:0 auto;
+  background-image:url('../img/puntos.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  text-align:center;
+  font-size:8em;
+  color: #0e457b;
+  padding-top:60px;
+  font-family: 'aldosemibold';
+}
+.opciones{
+	width:50px;
+	height:40px;
+	font-size:1.2em;
+}
